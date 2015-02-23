@@ -442,7 +442,7 @@ module AsyncSeq =
     | Cons(h, t) -> 
         let! res = p h
         if res then return! skipWhileAsync p t
-        else return! t
+        else return v
     | Nil -> return Nil }
 
   /// Returns elements from an asynchronous sequence while the specified 

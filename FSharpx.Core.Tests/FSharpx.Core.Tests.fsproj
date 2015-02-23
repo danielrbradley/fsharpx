@@ -74,6 +74,7 @@
     <Compile Include="AwaitHelpers.fs" />
     <Compile Include="AwaitObservableTests.fs" />
     <Compile Include="OptionTests.fs" />
+    <Compile Include="AsyncSeqTests.fs" />
     <Compile Include="ReflectionTests.fs" />
     <None Include="packages.config" />
     <None Include="app.config" />
